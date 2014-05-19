@@ -1,0 +1,43 @@
+<!-- <nav ng-controller="navControl">
+<ul class="side-nav">
+  <li><a href="#/buttons">Buttons</a></li>
+  <li ng-class="{ active: isCurrentPath('/') }"><a href="#/buttons">Buttons</a></li>
+</ul>
+</nav> -->
+<div id="toggleAll" class="codeToggle_All"></div>
+<nav>
+<ul class="side-nav" ng-controller="navControl">
+  	<li class="nav-element" ng-class="{ active: isCurrentPath('/') }"><a href="#/">Home</a></li>
+  	<li class="nav-element" ng-class="{ active: isCurrentPath('/nav') }"><a href="#/nav">Navigation</a></li>
+  	<li class="nav-element" ng-class="{ active: isCurrentPath('/buttons') }"><a href="#/buttons">Buttons</a></li>
+
+</ul>
+</nav>
+
+
+<script>
+
+// $('.source-panel').visible() = true;
+var sourceVisible = true;
+
+$('#toggleAll').click(function() {
+	if (sourceVisible == true) {
+		sourceVisible = false;
+	} else {
+		sourceVisible = true;
+	}
+	toggleSource();
+	// $('.source-panel').toggle(200);
+	// console.log('YES');
+	// alert(sourceVisible);
+});
+
+function toggleSource() {
+	if (sourceVisible == true) {
+		$('.source-panel').show();
+	} else if (sourceVisible == false) {
+		$('.source-panel').hide();
+	}
+};
+
+</script>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation</title>
+    <!-- <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/xlarge-grid.css" />
+    <link rel="stylesheet" href="css/ui.toolkit.css" />
+    <link rel="stylesheet" href="css/X-rayHTML.css" />
+    <link rel="stylesheet" href="css/prism.css" /> -->
+
+    <!-- fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+  <!-- /fonts -->
+
+
+    <script src="bower_components/modernizr/modernizr.js"></script>
+  </head>
+  <body class="antialiased">
+
+  <ul class="menu">
+    <li><a href="#/view1">view1</a></li>
+    <li><a href="#/view2">view2</a></li>
+  </ul>
+
+
+<div ng-view></div>
+
+
+
+
+
+    <div class="max row">
+      <div class="xlarge-2 large-3 columns">
+        <div id="sidebar"></div>
+      </div>
+      <div class="xlarge-10 large-9 columns">
+        <div id="content-body"></div>
+      </div>
+    </div>
+
+
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/foundation/js/foundation.min.js"></script>
+
+	  <script src="../bower_components/angular/angular.js"></script>
+  <script src="../bower_components/angular-route/angular-route.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+	<script src="js/ui.app.js"></script>
+
+	<script src="js/X-rayHTML.js"></script>
+	<script src="js/prism.js"></script>
+
+
+    <script>
+
+
+
+    //Initial load of page
+    $(document).ready(sizeContent);
+
+    //Every resize of window
+    $(window).resize(sizeContent);
+
+    //Dynamically assign height
+    function sizeContent() {
+        var newHeight = $("html").height() +"px";
+        $("#content-body").css("height", newHeight);
+    }
+
+    </script>
+
+
+
+
+
+  </body>
+</html>

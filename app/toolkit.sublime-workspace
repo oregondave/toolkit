@@ -1,0 +1,820 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"exis",
+				"existingNameInput"
+			],
+			[
+				"ex",
+				"existingNameInput"
+			],
+			[
+				"lightgr",
+				"lightgreen"
+			],
+			[
+				"med",
+				"mediumgreen"
+			],
+			[
+				"mediu",
+				"mediumgreen"
+			],
+			[
+				"medium",
+				"mediumgreen"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"al",
+				"almost-invisible-gray"
+			],
+			[
+				"light",
+				"lightblue"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"backgro",
+				"background-image"
+			],
+			[
+				"business",
+				"businessName"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"businessNam",
+				"businessNameInput"
+			],
+			[
+				"textarea",
+				"textarea	Tag"
+			],
+			[
+				"label",
+				"label	Tag"
+			],
+			[
+				"Tex",
+				"textarea"
+			],
+			[
+				"labe",
+				"label	Tag"
+			],
+			[
+				"text",
+				"textarea	<textarea>"
+			],
+			[
+				"filter",
+				"filterinput"
+			],
+			[
+				"ng-r",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"bore",
+				"border-radius"
+			],
+			[
+				"tab",
+				"table	<table>"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"ligh",
+				"lightgray"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"bav",
+				"apple-backface-visibility"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"$locat",
+				"$locationProvider	AngularJS"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"searc",
+				"search-bar"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"no",
+				"normal"
+			],
+			[
+				"even",
+				"eventData"
+			],
+			[
+				"event",
+				"event"
+			],
+			[
+				"defer",
+				"deferred"
+			],
+			[
+				"eve",
+				"event"
+			],
+			[
+				"succes",
+				"successcb"
+			],
+			[
+				"succe",
+				"successcb"
+			],
+			[
+				"in",
+				"ins	Tag"
+			],
+			[
+				"lab",
+				"label	<label>"
+			],
+			[
+				"cla",
+				"class	Attr"
+			],
+			[
+				"script",
+				"script	Tag"
+			],
+			[
+				"scr",
+				"script	Tag"
+			],
+			[
+				"fu",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1503,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/X-rayHTML.js",
+			"settings":
+			{
+				"buffer_size": 2872,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/buttons.html",
+			"settings":
+			{
+				"buffer_size": 3211,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/test.html",
+			"settings":
+			{
+				"buffer_size": 1076,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/prism.css",
+			"settings":
+			{
+				"buffer_size": 2098,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/ui.toolkit.scss",
+			"settings":
+			{
+				"buffer_size": 169,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"selected_items":
+		[
+			[
+				"p",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"oack",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"plug",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/davecaskey/Downloads/X-rayHTML-master/package.json",
+		"/Users/davecaskey/Downloads/X-rayHTML-master/X-rayHTML.jquery.json",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/testindex.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/partials/menu.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/js/prism.js",
+		"/Users/davecaskey/Documents/EBSCO/toolkit_FAB/src/fabricator/js/prism.js",
+		"/Users/davecaskey/Downloads/prism (1).js",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/css/xlarge-grid.css",
+		"/Users/davecaskey/Downloads/foundation-5.2.2.custom/css/foundation.css",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/index_default.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/Gruntfile.js",
+		"/Users/davecaskey/Downloads/grunt-includes-example-master/Gruntfile.js",
+		"/Users/davecaskey/Downloads/grunt-includes-example-master/site/index.html",
+		"/Users/davecaskey/Downloads/grunt-includes-example-master/build/pages/about.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/partials/test.html",
+		"/Users/davecaskey/Downloads/grunt-includes-example-master/package.json",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/bower_components/foundation/js/foundation.js",
+		"/Users/davecaskey/Downloads/commondream-handlebars-helpers-examples-7b44841/partials.html",
+		"/Users/davecaskey/Downloads/commondream-handlebars-helpers-examples-7b44841/index.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/dist/buttons.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/views/partials/menu.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/gulpfile.js",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/views/button.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/assets/js/toolkit.js",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/views/buttons.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/views/index.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/views/partials/intro.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/components/buttons.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/buttons/disabled-button.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/buttons/button-colors.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/views/partials/outro.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/views/components.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/buttons/button-sizes.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/components/button.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/tasks/collate.js",
+		"/Users/davecaskey/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/dist/index.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/node_modules/gulp-util/lib/isNull.js",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/node_modules/gulp-sass/node_modules/node-sass/libsass/INSTALL",
+		"/Users/davecaskey/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/davecaskey/Sites/beardedBadger/app/styleguide/src/toolkit/views/partials/menu.html",
+		"/Users/davecaskey/Sites/beardedBadger/app/styleguide/src/toolkit/views/documentation.html",
+		"/Users/davecaskey/Sites/beardedBadger/app/styleguide/src/toolkit/views/index.html",
+		"/Users/davecaskey/Sites/beardedBadger/app/js/directives.js",
+		"/Users/davecaskey/Sites/beardedBadger/app/js/filters.js",
+		"/Users/davecaskey/Sites/beardedBadger/app/js/app.js",
+		"/Users/davecaskey/Sites/beardedBadger/app/partials/home/home.html",
+		"/Users/davecaskey/Sites/beardedBadger/app/assets/img/svg/logotype.svg",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/fabricator/js/fabricator.js",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/node_modules/handlebars/package.json",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/node_modules/.bin/handlebars",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/dist/assets/js/f.js",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/package.json",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/fabricator/js/prism.js",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/dist/assets/json/data.json",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/architecture/grid.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/architecture/nav.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/presentation/borderRadius.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/views/presentation",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/architecture/utility_classes.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/architecture/classes.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/architecture/media queries.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/architecture/mediaqueries.html",
+		"/Users/davecaskey/Downloads/foundation-5.2.2/js/foundation.min.js",
+		"/Users/davecaskey/Downloads/foundation-5.2.2/js/foundation/foundation.js",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/views/architecture.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/dist/assets/js/foundation.js",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/components/allnew.html",
+		"/Users/davecaskey/Documents/EBSCO/toolkit/src/toolkit/components/checkbox.html",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/index.html",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/scss/ui.proto.scss",
+		"/Users/davecaskey/Sites/AIF/app/js/controllers/appraisalsController.js",
+		"/Users/davecaskey/Downloads/bootstrap-3.1.1-dist/Starter Template for Bootstrap.html",
+		"/Users/davecaskey/Documents/design/bootstrap3-sandbox/assets/bootstrap.min.js",
+		"/Users/davecaskey/Sites/AIF/app/js/libs/bootstrap/bootstrap.js",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/partials/fte/userAccount.html",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/js/angular_app.js",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/partials/fte/infoPanel.html",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/partials/fte/fte.html",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/js/app.js",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/package.json",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/Gruntfile.js",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/js/libs/contactSearch.js",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/js/libs/editableForm.js",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/indexAngular.html",
+		"/Users/davecaskey/Documents/EBSCO/proto copy 2/app/fte/package.json",
+		"/Users/davecaskey/Documents/EBSCO/proto copy 2/app/fte/Gruntfile.js",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/bower.json",
+		"/Users/davecaskey/Documents/EBSCO/proto/fte/Gruntfile.js",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/partials/shared/topbar.html",
+		"/Users/davecaskey/Downloads/jquery.mb.extruder-2.5.4/demo_left.html",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/js/libs/jquery.tabSlideOut.v1.3.js",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/partials/fte/customerPricingForm.html",
+		"/Users/davecaskey/Downloads/JVFloat.js-master/demo/index.html",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/js/libs/editable-call.js",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/js/libs/jquery.jeditable.mini.js",
+		"/Users/davecaskey/Desktop/radio.html",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/js/libs/addRemoveRow.js",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/data/fte/fte.json",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/js/controllers/fteController.js",
+		"/Users/davecaskey/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/davecaskey/Downloads/PreDawn_MOD.tmTheme",
+		"/Users/davecaskey/Downloads/predawn-master-1/predawn.tmTheme",
+		"/Users/davecaskey/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/Users/davecaskey/Library/Application Support/Sublime Text 3/Installed Packages/Predawn.sublime-package",
+		"/Users/davecaskey/Desktop/dynamic_add_del_row/index.html",
+		"/Users/davecaskey/Desktop/easyui-datagrid23-demo/data/datagrid_data.json",
+		"/Users/davecaskey/Documents/EBSCO/ECM_bootstrap/app/data/profile/profile.json",
+		"/Users/davecaskey/Documents/EBSCO/ECM_bootstrap/app/views/profile/profileSubjects.html",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/js/services/fteData.js",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/data/fte/dumo.json",
+		"/Users/davecaskey/Documents/EBSCO/ECM_bootstrap/app/js/controllers/profiles/ProfileController.js",
+		"/Users/davecaskey/Documents/EBSCO/ECM_bootstrap/app/js/app.js",
+		"/Users/davecaskey/Documents/EBSCO/ECM_bootstrap/app/views/home/home.html",
+		"/Users/davecaskey/Documents/EBSCO/ECM_bootstrap/app/index.html",
+		"/Users/davecaskey/Documents/EBSCO/ECM_bootstrap/app/js/directives.js",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/partials/home/home.html",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/js/controllers/homeController.js",
+		"/Users/davecaskey/Sites/AIF_bootstrap/app/scss/ui.aif.scss",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/js/services/homeData.js",
+		"/Users/davecaskey/Sites/AIF_bootstrap/app/js/controllers/homeController.js",
+		"/Users/davecaskey/Sites/AIF_bootstrap/app/index.html",
+		"/Users/davecaskey/Sites/AIF_bootstrap/app/partials/shared/topbar.html",
+		"/Users/davecaskey/Sites/AIF_bootstrap/app/js/app.js",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/js/controllers/home.js",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/js/services.js",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/js/filters.js",
+		"/Users/davecaskey/Documents/EBSCO/proto/app/js/ecm.js"
+	],
+	"find":
+	{
+		"height": 54.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<project>",
+			"/Users/davecaskey/Documents/EBSCO/proto/app",
+			"<project>",
+			"field--wrapper"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"large",
+			"butt",
+			"light-gr",
+			"widget",
+			"widge",
+			"search",
+			"green",
+			"border-right",
+			"widget",
+			"highlight",
+			"shift_tab",
+			"Amatic",
+			"name",
+			"f-item-heading",
+			"name",
+			">",
+			"dropdown",
+			"components",
+			"$blue",
+			"form",
+			"drop",
+			"form",
+			"dropdown",
+			">\n",
+			"checkbox",
+			"bold",
+			"sidebar",
+			"textarea",
+			"accountAdminForm",
+			"button",
+			"table",
+			"searchTrigger",
+			"date",
+			"gif",
+			"trigger",
+			"field--wrapper",
+			"Searching",
+			"label",
+			"list",
+			"listFilter",
+			"list",
+			"header",
+			"ecm",
+			"modal",
+			"a:hover",
+			"97",
+			"e114",
+			"glyph",
+			"event",
+			"eventsApp",
+			"ng",
+			"ToolsVersion"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"xlarge"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1503,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1003,
+								1003
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/X-rayHTML.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2872,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "partials/buttons.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2210,
+								1650
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 465.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "partials/test.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1076,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								974,
+								974
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/prism.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2098,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1884,
+								1884
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 432.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "scss/ui.toolkit.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 98.0
+	},
+	"project": "toolkit.sublime-project",
+	"replace":
+	{
+		"height": 104.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/davidashby/davidashby.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

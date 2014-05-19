@@ -1,0 +1,144 @@
+$pitch: #020202;
+$charcoal: #323232;
+$wet-asphalt: #34495E;
+$asbestos: #7F8C8D;
+$silver: #BDC3C7;
+$concrete: #95A5A6;
+$dust: #969696;
+$clouds: #ECF0F1;
+
+$peter-river: #3498DB;
+$belize-hole: #2980B9;
+
+$white: #FFFFFF;
+
+$mediumgreen: #A1CE8D;
+$lightgreen: #A1CE8D;
+$gatorgum: #D0F54b;
+
+$default-font: 'Source Sans Pro', sans-serif;
+
+// MAIN //
+
+body {
+	background: $charcoal;
+	font-family: $default-font;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: $default-font;
+font-weight: 100;
+font-style: normal;
+color: $asbestos;
+text-rendering: optimizeLegibility;
+margin-top: 0;
+margin-bottom: 0.5rem;
+line-height: 2;
+}
+.columns {
+	&.collapse{
+		padding: 0;
+	}
+}
+.codeToggle_All {
+	background-image: url(../assets/code_green.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	// background-color: $gatorgum;
+	padding: 1.4rem;
+	border-bottom: 1px solid $pitch;
+}
+#content-body {
+	background: $white;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+}
+.max.row {
+	width: 100%;
+	max-width: 100%;
+}
+
+#sidebar {
+	.side-nav {
+		display: block;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		list-style-position: inside;
+		font-family: inherit;
+
+		li {
+			&.active {
+				background-color: lighten( $charcoal, 5% );
+				>a:first-child:not(.button) {
+					color: $clouds;
+					font-family: inherit;
+				}
+			}
+		}
+
+		 .nav-element {
+			margin: 0;
+
+			font-size: inherit;
+			font-weight: 500;
+			border-bottom: 1px solid $pitch;
+
+			a {
+				color: $concrete;
+				padding: 1rem;
+			}
+			&.sub {
+				border-bottom: 0;
+				list-style-type: none;
+				color: $clouds;
+				padding: .75rem 0;
+			}
+		}
+	}
+}
+
+
+// PAGES //
+section.codeblock {
+	margin: 2rem 0;
+}
+
+.unitToggle {
+	background-color: $clouds;
+	background-image: url(../assets/code_gray.svg);
+	background-repeat:no-repeat;
+	background-position: center;
+	cursor: pointer;
+	padding: .7rem;
+	height: 24px;
+	width: 24px;
+}
+.source-panel {
+	margin-bottom: 2rem;
+
+}
+code {
+	font-family: Consolas,'Liberation Mono',Courier,monospace;
+	font-weight: normal;
+	font-size: .65rem;
+}
+.snippet {
+	margin-bottom: 1.0625rem;
+	.button {
+		margin-bottom: 0;
+	}
+}
+hr {
+	margin: 0;
+}
+
+
+// NAV //
+.sub-nav dt.active a,
+.sub-nav dd.active a,
+.sub-nav li.active a {
+	border-radius: 0;
+}
+.breadcrumbs {
+	border-radius: 0;
+}

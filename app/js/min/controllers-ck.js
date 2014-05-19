@@ -1,0 +1,1 @@
+"use strict";angular.module("myApp.controllers",["ngScrollTo"]).controller("navControl",["$scope","$location",function(n,o){n.isCurrentPath=function(n){return o.path()==n}}]).controller("buttons",[function(){}]).controller("nav",[function(){}]).controller("MyCtrl1",[function(){}]).controller("MyCtrl2",[function(){}]);
